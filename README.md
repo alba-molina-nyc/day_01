@@ -91,7 +91,7 @@ print(type(num_char))
 
 ```python
 3 * 2
-``` 
+```
 
 **division**
 
@@ -103,4 +103,10 @@ print(type(6 / 3))
 
 ```python
 2 ** 2
-``` 
+```
+
+**Division using floor**
+
+```python
+4//2 
+```
