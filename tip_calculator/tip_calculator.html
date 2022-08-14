@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <!-- pyscript -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+
+    <py-script>
+        bill = float(input('what was the total bill: '))
+        tip = int(input('what is the percentage you`d like to leave on this bill: '))
+        people = int(input('how many people will you be splitting this bill with: '))
+        tip_as_percent = tip /100
+        total_tip_amount = bill * tip_as_percent
+        total_bill = bill + total_tip_amount
+        bill_per_person = total_bill / people
+        final_amount = round(bill_per_person)
+        print(f'each person should pay {final_amount}')
+    </py-script>
+    
+</body>
+</html>
