@@ -110,3 +110,14 @@ print(type(6 / 3))
 ```python
 4//2 
 ```
+
+**percentages**
+
+```python
+# bill of 150
+# 12 percent tip
+total_bill = 150
+twelve_percent_tip = 12 / 100
+twelve_percent_tip * total_bill
+
+```
