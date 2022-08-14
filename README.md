@@ -70,3 +70,37 @@ print('your name has ' + new_num_char + ' characters')
 
 print(type(num_char))
 ```
+
+---
+
+### Mathematical Operators in Python
+
+**addition**
+
+```python
+3 + 5
+```
+
+**subtraction**
+
+```python
+7 - 4
+```
+
+**multiplication**
+
+```python
+3 * 2
+``` 
+
+**division**
+
+```python
+print(type(6 / 3))
+```
+
+**exponents**
+
+```python
+2 ** 2
+``` 
